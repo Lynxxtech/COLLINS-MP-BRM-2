@@ -1124,6 +1124,8 @@
       "Call Link",
       "SMS Link"
     ],
-    "note": "Follow-up sheet is sorted by highest inactive duration first. Phone/email are matched only when present in extracted BRM/product report data."
+    "note": "Follow-up sheet is sorted by highest inactive duration first. Phone/email are matched from the CRM business contact master and previous CRM match files; no invented contacts.",
+    "matched_contacts": 52,
+    "unmatched_contacts": 0
   }
 }
