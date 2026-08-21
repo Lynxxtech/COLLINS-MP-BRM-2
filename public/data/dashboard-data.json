@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T23:57:38",
+  "generated_at": "2026-08-21T03:37:52",
   "source": "Moniepoint email reports via private Google Sheet source",
   "privacy": "Private deploy-ready package; no public Google Sheet sharing required.",
   "weekly": [
@@ -1038,5 +1038,52 @@
       "daily_transaction_rows": 228,
       "weekly_transaction_rows": 228
     }
-  ]
+  ],
+  "productKpis": {
+    "latest_report_date": "2026-08-19",
+    "reports": [
+      {
+        "product": "Loans",
+        "report_date": "2026-08-19",
+        "active_count": 4,
+        "primary_label": "Active Loans",
+        "secondary_metrics": {
+          "Current GLPV": 2484989.2,
+          "Loan Penetration Rate %": 0.7,
+          "Loans in Recovery": 0,
+          "NPL Count": 0,
+          "Available Customers": 565
+        },
+        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-19"
+      },
+      {
+        "product": "Fixed Deposit",
+        "report_date": "2026-08-19",
+        "active_count": 0,
+        "primary_label": "Current Month Active Fixed Plans",
+        "secondary_metrics": {
+          "All-Time Active Plans": 0,
+          "All-Time Active AUM": 0,
+          "MTD AUM Active": 0,
+          "Current Month Deposit": 0
+        },
+        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-19"
+      },
+      {
+        "product": "Moniebook",
+        "report_date": "2026-08-19",
+        "active_count": 4,
+        "primary_label": "Total Active Subscriptions",
+        "secondary_metrics": {
+          "Total Onboarded Businesses": 15,
+          "Total Registers": 15,
+          "Active Subscription Rate %": 26.7,
+          "Total Expired Businesses": 3,
+          "Total Cancelled Businesses": 4,
+          "Total Active Non-Transacting": 4
+        },
+        "source": "Moniebook Business Relationship Manager Business Report for 2026-08-19"
+      }
+    ]
+  }
 }
