@@ -1213,7 +1213,8 @@
     "moniebook": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=414730897",
     "activeTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=745226889",
     "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1227113533",
-    "inactiveFollowUpSorted": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712"
+    "inactiveFollowUpSorted": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712",
+    "nonTransactingTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1766686461"
   },
   "cleanContactTabs": {
     "note": "All KPI card links open clean Google Sheet tabs with exactly 3 columns: Business Name, Phone Number, Email. Active loan names are not listed in the email loan report, so the active loans tab currently has only the header until CRM loan lookup identifies the businesses.",
@@ -1270,5 +1271,13 @@
     "inactive_terminals": "Businesses/terminals below ₦100,000 transaction value over a 7-day period.",
     "non_transacting_terminals": "Terminals unused for transactions for 7+ days.",
     "note": "Non-transacting terminals are shown separately because they are a follow-up category distinct from low-activity/inactive terminals."
+  },
+  "nonTransactingFollowUp": {
+    "tab": "KPI Non-Transacting Sorted",
+    "url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1766686461",
+    "sort": "Days Non-Transacting descending",
+    "rows": 54,
+    "matched_contacts": 54,
+    "note": "Sorted by longest duration without transaction first."
   }
 }
