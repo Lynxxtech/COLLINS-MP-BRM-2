@@ -1402,7 +1402,7 @@
     "nonTransactingTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1766686461"
   },
   "cleanContactTabs": {
-    "note": "Active and Inactive terminal KPI links now open enriched Google Sheet tabs with Business Name, Phone Number, Email, Total Weekly Transaction Value, and Total Weekly Transaction Volume. Product KPI tabs remain clean contact-only unless Collins requests metrics.",
+    "note": "Active and Inactive terminal KPI links use Weekly Terminal Transactions payment-only values/volumes (not Daily Terminal Transactions). Product KPI tabs remain clean contact-only unless Collins requests metrics.",
     "tabs": {
       "KPI Clean Active Loans": 826157161,
       "KPI Clean Fixed Deposit": 2126823957,
@@ -1414,8 +1414,8 @@
       "KPI Clean Active Loans": 0,
       "KPI Clean Fixed Deposit": 6,
       "KPI Clean Moniebook": 4,
-      "KPI Clean Active Terminals": 59,
-      "KPI Clean Inactive Terminals": 107
+      "KPI Clean Active Terminals": 133,
+      "KPI Clean Inactive Terminals": 34
     }
   },
   "inactiveFollowUp": {
@@ -1486,11 +1486,12 @@
     "definition": "Inactive terminals list excludes non-transacting terminals and follows Collins terminal bucket formula."
   },
   "terminalContactSorting": {
-    "activeTerminals": "KPI Clean Active Terminals is business-level payment-value > ₦100k, transfers ignored, sorted by payment volume descending. Sheet columns: Business Name, Phone Number, Email, Total Weekly Transaction Value, Total Weekly Transaction Volume.",
-    "inactiveTerminals": "KPI Clean Inactive Terminals is business-level payment-value <= ₦100k with recent terminal use; non-transacting-only businesses excluded; transfers ignored; sorted by payment volume descending. Sheet columns: Business Name, Phone Number, Email, Total Weekly Transaction Value, Total Weekly Transaction Volume.",
-    "active_businesses": 59,
-    "inactive_businesses": 107,
-    "sort_metric": "payment volume descending, then payment value descending",
+    "activeTerminals": "KPI Clean Active Terminals uses Weekly Terminal Transactions, business-level weekly PAYMENT value > ₦100k, transfers ignored, sorted by total weekly payment volume descending.",
+    "inactiveTerminals": "KPI Clean Inactive Terminals uses Weekly Terminal Transactions, business-level weekly PAYMENT value <= ₦100k with recent terminal use; non-transacting-only businesses excluded; transfers ignored; sorted by total weekly payment volume descending.",
+    "active_businesses": 133,
+    "inactive_businesses": 34,
+    "source_section": "Weekly Terminal Transactions (Fri, 14-Aug-2026 to Thu, 20-Aug-2026)",
+    "sort_metric": "total weekly payment volume descending, then weekly payment value descending",
     "added_columns": [
       "Total Weekly Transaction Value",
       "Total Weekly Transaction Volume"
