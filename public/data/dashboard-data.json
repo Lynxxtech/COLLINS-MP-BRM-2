@@ -1402,7 +1402,7 @@
     "nonTransactingTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1766686461"
   },
   "cleanContactTabs": {
-    "note": "All KPI card links open clean Google Sheet tabs with exactly 3 columns: Business Name, Phone Number, Email. Active loan names are not listed in the email loan report, so the active loans tab currently has only the header until CRM loan lookup identifies the businesses.",
+    "note": "All KPI card links open clean Google Sheet tabs with exactly 3 columns: Business Name, Phone Number, Email. Inactive terminal clean sheet now lists businesses below target/payment activity and excludes non-transacting terminals.",
     "tabs": {
       "KPI Clean Active Loans": 826157161,
       "KPI Clean Fixed Deposit": 2126823957,
@@ -1415,7 +1415,7 @@
       "KPI Clean Fixed Deposit": 6,
       "KPI Clean Moniebook": 4,
       "KPI Clean Active Terminals": 40,
-      "KPI Clean Inactive Terminals": 50
+      "KPI Clean Inactive Terminals": 94
     }
   },
   "inactiveFollowUp": {
@@ -1472,5 +1472,17 @@
     "rows": 54,
     "matched_contacts": 54,
     "note": "Sorted by longest duration without transaction first."
+  },
+  "inactiveCleanSheet": {
+    "tab": "KPI Clean Inactive Terminals",
+    "url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1227113533",
+    "columns": [
+      "Business Name",
+      "Phone Number",
+      "Email"
+    ],
+    "unique_businesses": 94,
+    "matched_contacts": 94,
+    "definition": "Inactive terminals list excludes non-transacting terminals and follows Collins terminal bucket formula."
   }
 }
