@@ -1055,8 +1055,8 @@
           "Available Customers": 565
         },
         "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-19",
-        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1099288266",
-        "click_hint": "Click to open Google Sheets detail list"
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=826157161",
+        "click_hint": "Click to open clean Google Sheets contact list"
       },
       {
         "product": "Fixed Deposit",
@@ -1070,8 +1070,8 @@
           "Current Month Deposit": 0
         },
         "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-19",
-        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1960060448",
-        "click_hint": "Click to open Google Sheets detail list"
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=2126823957",
+        "click_hint": "Click to open clean Google Sheets contact list"
       },
       {
         "product": "Moniebook",
@@ -1087,16 +1087,26 @@
           "Total Active Non-Transacting": 4
         },
         "source": "Moniebook Business Relationship Manager Business Report for 2026-08-19",
-        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=184267973",
-        "click_hint": "Click to open Google Sheets detail list"
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=414730897",
+        "click_hint": "Click to open clean Google Sheets contact list"
       }
     ]
   },
   "detailLinks": {
-    "loans": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1099288266",
-    "fixedDeposit": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1960060448",
-    "moniebook": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=184267973",
-    "activeTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=299322471",
-    "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=885863063"
+    "loans": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=826157161",
+    "fixedDeposit": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=2126823957",
+    "moniebook": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=414730897",
+    "activeTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=745226889",
+    "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1227113533"
+  },
+  "cleanContactTabs": {
+    "note": "Clickable KPI links now open clean tabs with only Business Name, Phone Number, Email. Blank phone/email means not present in extracted reports.",
+    "tabs": {
+      "KPI Clean Active Loans": 826157161,
+      "KPI Clean Fixed Deposit": 2126823957,
+      "KPI Clean Moniebook": 414730897,
+      "KPI Clean Active Terminals": 745226889,
+      "KPI Clean Inactive Terminals": 1227113533
+    }
   }
 }
