@@ -1642,5 +1642,19 @@
         "business_list_period": "Fri, 14-Aug-2026 to Thu, 20-Aug-2026"
       }
     ]
+  },
+  "activeNewBoKpi": {
+    "label": "Active New BO",
+    "definition": "Newly acquired BO with ≥25 monthly transactions OR reactivated BO inactive >30 days that returns to ≥25 monthly transactions.",
+    "current_count": null,
+    "status": "source_needed",
+    "display_value": "N/A",
+    "source_status": "Not computable from the current BRM report feed alone without monthly BO onboarding/reactivation + monthly transaction-volume source.",
+    "do_not_fake": true,
+    "available_related_field": {
+      "name": "Assigned Terminal Growth (Current Month)",
+      "latest_value": 0,
+      "note": "Related field in BRM report, but not the same as Active New BO."
+    }
   }
 }
