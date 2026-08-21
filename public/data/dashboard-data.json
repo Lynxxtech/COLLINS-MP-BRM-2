@@ -1402,7 +1402,7 @@
     "nonTransactingTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1766686461"
   },
   "cleanContactTabs": {
-    "note": "All KPI card links open clean Google Sheet tabs with exactly 3 columns: Business Name, Phone Number, Email. Inactive terminal clean sheet now lists businesses below target/payment activity and excludes non-transacting terminals.",
+    "note": "Active and Inactive terminal KPI links now open enriched Google Sheet tabs with Business Name, Phone Number, Email, Total Weekly Transaction Value, and Total Weekly Transaction Volume. Product KPI tabs remain clean contact-only unless Collins requests metrics.",
     "tabs": {
       "KPI Clean Active Loans": 826157161,
       "KPI Clean Fixed Deposit": 2126823957,
@@ -1486,10 +1486,14 @@
     "definition": "Inactive terminals list excludes non-transacting terminals and follows Collins terminal bucket formula."
   },
   "terminalContactSorting": {
-    "activeTerminals": "KPI Clean Active Terminals is business-level payment-value > ₦100k, transfers ignored, sorted by payment volume descending.",
-    "inactiveTerminals": "KPI Clean Inactive Terminals is business-level payment-value <= ₦100k with recent terminal use; non-transacting-only businesses excluded; transfers ignored; sorted by payment volume descending.",
+    "activeTerminals": "KPI Clean Active Terminals is business-level payment-value > ₦100k, transfers ignored, sorted by payment volume descending. Sheet columns: Business Name, Phone Number, Email, Total Weekly Transaction Value, Total Weekly Transaction Volume.",
+    "inactiveTerminals": "KPI Clean Inactive Terminals is business-level payment-value <= ₦100k with recent terminal use; non-transacting-only businesses excluded; transfers ignored; sorted by payment volume descending. Sheet columns: Business Name, Phone Number, Email, Total Weekly Transaction Value, Total Weekly Transaction Volume.",
     "active_businesses": 59,
     "inactive_businesses": 107,
-    "sort_metric": "payment volume descending, then payment value descending"
+    "sort_metric": "payment volume descending, then payment value descending",
+    "added_columns": [
+      "Total Weekly Transaction Value",
+      "Total Weekly Transaction Volume"
+    ]
   }
 }
