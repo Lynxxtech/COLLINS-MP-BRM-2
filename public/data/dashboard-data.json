@@ -1402,7 +1402,7 @@
     "nonTransactingTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1766686461"
   },
   "cleanContactTabs": {
-    "note": "Active and Inactive terminal KPI links use Weekly Terminal Transactions payment-only values/volumes (not Daily Terminal Transactions). Product KPI tabs remain clean contact-only unless Collins requests metrics.",
+    "note": "Active/Inactive terminal KPI tabs include Week 0–Week 4 rows and weekly payment-only value/volume from Weekly Terminal Transactions. Product KPI tabs remain contact-only unless Collins requests metrics.",
     "tabs": {
       "KPI Clean Active Loans": 826157161,
       "KPI Clean Fixed Deposit": 2126823957,
@@ -1414,8 +1414,8 @@
       "KPI Clean Active Loans": 0,
       "KPI Clean Fixed Deposit": 6,
       "KPI Clean Moniebook": 4,
-      "KPI Clean Active Terminals": 133,
-      "KPI Clean Inactive Terminals": 34
+      "KPI Clean Active Terminals": 676,
+      "KPI Clean Inactive Terminals": 170
     }
   },
   "inactiveFollowUp": {
@@ -1486,15 +1486,82 @@
     "definition": "Inactive terminals list excludes non-transacting terminals and follows Collins terminal bucket formula."
   },
   "terminalContactSorting": {
-    "activeTerminals": "KPI Clean Active Terminals uses Weekly Terminal Transactions, business-level weekly PAYMENT value > ₦100k, transfers ignored, sorted by total weekly payment volume descending.",
-    "inactiveTerminals": "KPI Clean Inactive Terminals uses Weekly Terminal Transactions, business-level weekly PAYMENT value <= ₦100k with recent terminal use; non-transacting-only businesses excluded; transfers ignored; sorted by total weekly payment volume descending.",
-    "active_businesses": 133,
-    "inactive_businesses": 34,
-    "source_section": "Weekly Terminal Transactions (Fri, 14-Aug-2026 to Thu, 20-Aug-2026)",
-    "sort_metric": "total weekly payment volume descending, then weekly payment value descending",
-    "added_columns": [
+    "activeTerminals": "KPI Clean Active Terminals now covers Week 0–Week 4. It uses each week-ending report’s Weekly Terminal Transactions section, business-level weekly PAYMENT value > ₦100k, transfers ignored, sorted within each week by total weekly payment volume descending.",
+    "inactiveTerminals": "KPI Clean Inactive Terminals now covers Week 0–Week 4. It uses each week-ending report’s Weekly Terminal Transactions section, business-level weekly PAYMENT value <= ₦100k with recent terminal use; non-transacting-only businesses excluded; transfers ignored; sorted within each week by total weekly payment volume descending.",
+    "columns": [
+      "Week",
+      "Weekly Period",
+      "Sort Rank",
+      "Business Name",
+      "Phone Number",
+      "Email",
       "Total Weekly Transaction Value",
       "Total Weekly Transaction Volume"
-    ]
+    ],
+    "active_rows_week0_4": 676,
+    "inactive_rows_week0_4": 170,
+    "week_summary": [
+      {
+        "week": "Week 0",
+        "period": "Sun, 19-Jul-2026 to Sat, 25-Jul-2026",
+        "source": "/root/moniepoint_email_kpi_intake/run_2026-08-21_week0_week2_weekly/19f9c85195ac2685/Business_Relationship_Manager_Daily_Report_1387.pdf.txt",
+        "weekly_rows": 228,
+        "unique_businesses": 217,
+        "active_businesses": 138,
+        "inactive_businesses": 30,
+        "non_only_businesses": 49,
+        "active_matched": 138,
+        "inactive_matched": 30
+      },
+      {
+        "week": "Week 1",
+        "period": "Sun, 26-Jul-2026 to Sat, 01-Aug-2026",
+        "source": "/root/moniepoint_email_kpi_intake/run_2026-08-21_week0_week2_weekly/19fc0ada46394438/Business_Relationship_Manager_Daily_Report_1387.pdf.txt",
+        "weekly_rows": 226,
+        "unique_businesses": 216,
+        "active_businesses": 136,
+        "inactive_businesses": 33,
+        "non_only_businesses": 47,
+        "active_matched": 136,
+        "inactive_matched": 33
+      },
+      {
+        "week": "Week 2",
+        "period": "Sun, 02-Aug-2026 to Sat, 08-Aug-2026",
+        "source": "/root/moniepoint_email_kpi_intake/run_2026-08-21_week0_week2_weekly/19fe4a9ebfdae3f1/Business_Relationship_Manager_Daily_Report_1387.pdf.txt",
+        "weekly_rows": 226,
+        "unique_businesses": 215,
+        "active_businesses": 140,
+        "inactive_businesses": 28,
+        "non_only_businesses": 47,
+        "active_matched": 140,
+        "inactive_matched": 28
+      },
+      {
+        "week": "Week 3",
+        "period": "Sun, 09-Aug-2026 to Sat, 15-Aug-2026",
+        "source": "/root/moniepoint_email_kpi_intake/run_2026-08-20_week3_week4/1a008c113337b85e/Business_Relationship_Manager_Daily_Report_1387.pdf.txt",
+        "weekly_rows": 228,
+        "unique_businesses": 217,
+        "active_businesses": 129,
+        "inactive_businesses": 45,
+        "non_only_businesses": 43,
+        "active_matched": 129,
+        "inactive_matched": 45
+      },
+      {
+        "week": "Week 4",
+        "period": "Fri, 14-Aug-2026 to Thu, 20-Aug-2026",
+        "source": "/root/moniepoint_email_kpi_intake/run_2026-08-21_cron/1a022d035761945a/Business_Relationship_Manager_Daily_Report_1387.pdf.txt",
+        "weekly_rows": 228,
+        "unique_businesses": 217,
+        "active_businesses": 133,
+        "inactive_businesses": 34,
+        "non_only_businesses": 50,
+        "active_matched": 133,
+        "inactive_matched": 34
+      }
+    ],
+    "going_forward": "Append/refresh each new week using the Weekly Terminal Transactions section only, not Daily Terminal Transactions."
   }
 }
