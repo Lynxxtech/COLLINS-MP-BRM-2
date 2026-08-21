@@ -1563,5 +1563,84 @@
       }
     ],
     "going_forward": "Append/refresh each new week using the Weekly Terminal Transactions section only, not Daily Terminal Transactions."
+  },
+  "dataAudit": {
+    "headline": "Dashboard is report-data driven. KPI cards show terminal-count buckets; click-through sheets show business-owner/business-name rows from Weekly Terminal Transactions.",
+    "terminal_count_formula": "Active Terminals + Inactive Terminals + Non-Transacting Terminals + Unassigned Terminals = Total Terminals",
+    "why_counts_can_differ": "One business owner can have more than one terminal, so Active Terminals may not equal Active Business Owner rows.",
+    "kpi_card_source": "Terminal Summary / parsed daily-weekly KPI data from Moniepoint BRM reports",
+    "business_list_source": "Weekly Terminal Transactions section; payment value/volume only; transfers excluded; CRM master only supplies phone/email contacts.",
+    "rows": [
+      {
+        "week": "Week 0",
+        "terminal_count_source": "Terminal Summary / weekly KPI bucket in report data",
+        "business_list_source": "Weekly Terminal Transactions section",
+        "total_terminals": 230,
+        "active_terminal_count": 144,
+        "inactive_terminal_count": 29,
+        "non_transacting_terminal_count": 53,
+        "unassigned_terminal_count": 4,
+        "formula_check_total": 230,
+        "active_business_owner_rows": 138,
+        "inactive_business_owner_rows": 30,
+        "business_list_period": "Sun, 19-Jul-2026 to Sat, 25-Jul-2026"
+      },
+      {
+        "week": "Week 1",
+        "terminal_count_source": "Terminal Summary / weekly KPI bucket in report data",
+        "business_list_source": "Weekly Terminal Transactions section",
+        "total_terminals": 232,
+        "active_terminal_count": 128,
+        "inactive_terminal_count": 50,
+        "non_transacting_terminal_count": 50,
+        "unassigned_terminal_count": 4,
+        "formula_check_total": 232,
+        "active_business_owner_rows": 136,
+        "inactive_business_owner_rows": 33,
+        "business_list_period": "Sun, 26-Jul-2026 to Sat, 01-Aug-2026"
+      },
+      {
+        "week": "Week 2",
+        "terminal_count_source": "Terminal Summary / weekly KPI bucket in report data",
+        "business_list_source": "Weekly Terminal Transactions section",
+        "total_terminals": 234,
+        "active_terminal_count": 90,
+        "inactive_terminal_count": 87,
+        "non_transacting_terminal_count": 51,
+        "unassigned_terminal_count": 6,
+        "formula_check_total": 234,
+        "active_business_owner_rows": 140,
+        "inactive_business_owner_rows": 28,
+        "business_list_period": "Sun, 02-Aug-2026 to Sat, 08-Aug-2026"
+      },
+      {
+        "week": "Week 3",
+        "terminal_count_source": "Terminal Summary / weekly KPI bucket in report data",
+        "business_list_source": "Weekly Terminal Transactions section",
+        "total_terminals": 235,
+        "active_terminal_count": 88,
+        "inactive_terminal_count": 95,
+        "non_transacting_terminal_count": 45,
+        "unassigned_terminal_count": 7,
+        "formula_check_total": 235,
+        "active_business_owner_rows": 129,
+        "inactive_business_owner_rows": 45,
+        "business_list_period": "Sun, 09-Aug-2026 to Sat, 15-Aug-2026"
+      },
+      {
+        "week": "Week 4",
+        "terminal_count_source": "Terminal Summary / weekly KPI bucket in report data",
+        "business_list_source": "Weekly Terminal Transactions section",
+        "total_terminals": 235,
+        "active_terminal_count": 84,
+        "inactive_terminal_count": 92,
+        "non_transacting_terminal_count": 52,
+        "unassigned_terminal_count": 7,
+        "formula_check_total": 235,
+        "active_business_owner_rows": 133,
+        "inactive_business_owner_rows": 34,
+        "business_list_period": "Fri, 14-Aug-2026 to Thu, 20-Aug-2026"
+      }
+    ]
   }
 }
