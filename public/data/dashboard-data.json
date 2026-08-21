@@ -1097,11 +1097,11 @@
     "fixedDeposit": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=2126823957",
     "moniebook": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=414730897",
     "activeTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=745226889",
-    "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712",
+    "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1227113533",
     "inactiveFollowUpSorted": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712"
   },
   "cleanContactTabs": {
-    "note": "Clickable KPI links now open clean tabs with only Business Name, Phone Number, Email. Blank phone/email means not present in extracted reports.",
+    "note": "All KPI card links open clean Google Sheet tabs with exactly 3 columns: Business Name, Phone Number, Email. Active loan names are not listed in the email loan report, so the active loans tab currently has only the header until CRM loan lookup identifies the 4 businesses.",
     "tabs": {
       "KPI Clean Active Loans": 826157161,
       "KPI Clean Fixed Deposit": 2126823957,
@@ -1124,7 +1124,7 @@
       "Call Link",
       "SMS Link"
     ],
-    "note": "Follow-up sheet is sorted by highest inactive duration first. Phone/email are matched from the CRM business contact master and previous CRM match files; no invented contacts.",
+    "note": "Separate detailed follow-up sheet retained for sorting by days inactive; KPI card link now opens the clean 3-column contact tab per Collins preference.",
     "matched_contacts": 52,
     "unmatched_contacts": 0
   }
