@@ -1414,8 +1414,8 @@
       "KPI Clean Active Loans": 0,
       "KPI Clean Fixed Deposit": 6,
       "KPI Clean Moniebook": 4,
-      "KPI Clean Active Terminals": 40,
-      "KPI Clean Inactive Terminals": 94
+      "KPI Clean Active Terminals": 59,
+      "KPI Clean Inactive Terminals": 107
     }
   },
   "inactiveFollowUp": {
@@ -1484,5 +1484,12 @@
     "unique_businesses": 94,
     "matched_contacts": 94,
     "definition": "Inactive terminals list excludes non-transacting terminals and follows Collins terminal bucket formula."
+  },
+  "terminalContactSorting": {
+    "activeTerminals": "KPI Clean Active Terminals is business-level payment-value > ₦100k, transfers ignored, sorted by payment volume descending.",
+    "inactiveTerminals": "KPI Clean Inactive Terminals is business-level payment-value <= ₦100k with recent terminal use; non-transacting-only businesses excluded; transfers ignored; sorted by payment volume descending.",
+    "active_businesses": 59,
+    "inactive_businesses": 107,
+    "sort_metric": "payment volume descending, then payment value descending"
   }
 }
