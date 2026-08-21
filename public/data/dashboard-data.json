@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:37:52",
+  "generated_at": "2026-08-21T12:19:29",
   "source": "Moniepoint email reports via private Google Sheet source",
   "privacy": "Private deploy-ready package; no public Google Sheet sharing required.",
   "weekly": [
@@ -91,22 +91,22 @@
       "week_index": 4,
       "week_label": "Week 4",
       "period_start": "2026-08-16",
-      "period_end": "2026-08-19",
-      "days_available": 4,
-      "avg_TA_%": 61.93,
+      "period_end": "2026-08-20",
+      "days_available": 5,
+      "avg_TA_%": 62.08,
       "TA_target_%": 72,
-      "TA_gap_pts": -10.07,
-      "avg_Top_BO_retention_%": 90.57,
+      "TA_gap_pts": -9.92,
+      "avg_Top_BO_retention_%": 90.68,
       "Top_BO_retention_target_%": 92,
-      "retention_gap_pts": -1.43,
+      "retention_gap_pts": -1.32,
       "avg_active_terminals": 84,
       "avg_inactive_count": 51,
-      "weekly_transaction_value": 329563972.34,
-      "weekly_transaction_volume": 8780,
-      "avg_TA_%_wow_change": -3.93,
-      "avg_Top_BO_retention_%_wow_change": 0.44,
-      "weekly_transaction_value_wow_change": -480612127.75,
-      "weekly_transaction_volume_wow_change": -7331.0
+      "weekly_transaction_value": 417144026.84,
+      "weekly_transaction_volume": 11241,
+      "avg_TA_%_wow_change": -3.78,
+      "avg_Top_BO_retention_%_wow_change": 0.55,
+      "weekly_transaction_value_wow_change": -393032073.25,
+      "weekly_transaction_volume_wow_change": -4870.0
     }
   ],
   "daily": [
@@ -1037,30 +1037,59 @@
       "non_transacting_count": 51,
       "daily_transaction_rows": 228,
       "weekly_transaction_rows": 228
+    },
+    {
+      "report_date_iso": "2026-08-20",
+      "report_date_label": "Thu, 20-Aug-2026",
+      "week_index": 4,
+      "week_label": "Week 4",
+      "TA_%": 62.7,
+      "TA_target_%": 72,
+      "Top_BO_retention_%": 91.1,
+      "Top_BO_retention_target_%": 92,
+      "top_bo_count": 90,
+      "retained_top_bos": 82,
+      "declined_top_bos": 8,
+      "newly_declined_top_bos": 0,
+      "newly_recovered_top_bos": 0,
+      "total_terminal_count": 235,
+      "terminals_assigned_to_bos": 228,
+      "active_terminals": 85,
+      "terminals_assigned_for_7_plus_days": 134,
+      "active_terminals_assigned_for_7_plus_days": 84,
+      "daily_payment_value": 44785490.0,
+      "daily_payment_volume": 1813,
+      "daily_transfer_value": 42794564.5,
+      "daily_transfer_volume": 648,
+      "daily_total_transaction_value": 87580054.5,
+      "daily_total_transaction_volume": 2461,
+      "non_transacting_count": "",
+      "daily_transaction_rows": 228,
+      "weekly_transaction_rows": 228
     }
   ],
   "productKpis": {
-    "latest_report_date": "2026-08-19",
+    "latest_report_date": "2026-08-20",
     "reports": [
       {
         "product": "Loans",
-        "report_date": "2026-08-19",
+        "report_date": "2026-08-20",
         "active_count": 4,
         "primary_label": "Active Loans",
         "secondary_metrics": {
-          "Current GLPV": 2484989.2,
+          "Current GLPV": 2462833.6,
           "Loan Penetration Rate %": 0.7,
           "Loans in Recovery": 0,
           "NPL Count": 0,
           "Available Customers": 565
         },
-        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-19",
+        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-20",
         "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=826157161",
         "click_hint": "Click to open clean Google Sheets contact list"
       },
       {
         "product": "Fixed Deposit",
-        "report_date": "2026-08-19",
+        "report_date": "2026-08-20",
         "active_count": 0,
         "primary_label": "Current Month Active Fixed Plans",
         "secondary_metrics": {
@@ -1069,13 +1098,13 @@
           "MTD AUM Active": 0,
           "Current Month Deposit": 0
         },
-        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-19",
+        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-20",
         "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=2126823957",
         "click_hint": "Click to open clean Google Sheets contact list"
       },
       {
         "product": "Moniebook",
-        "report_date": "2026-08-19",
+        "report_date": "2026-08-20",
         "active_count": 4,
         "primary_label": "Total Active Subscriptions",
         "secondary_metrics": {
@@ -1086,7 +1115,7 @@
           "Total Cancelled Businesses": 4,
           "Total Active Non-Transacting": 4
         },
-        "source": "Moniebook Business Relationship Manager Business Report for 2026-08-19",
+        "source": "Moniebook Business Relationship Manager Business Report for 2026-08-20",
         "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=414730897",
         "click_hint": "Click to open clean Google Sheets contact list"
       }
@@ -1101,13 +1130,20 @@
     "inactiveFollowUpSorted": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712"
   },
   "cleanContactTabs": {
-    "note": "All KPI card links open clean Google Sheet tabs with exactly 3 columns: Business Name, Phone Number, Email. Active loan names are not listed in the email loan report, so the active loans tab currently has only the header until CRM loan lookup identifies the 4 businesses.",
+    "note": "All KPI card links open clean Google Sheet tabs with exactly 3 columns: Business Name, Phone Number, Email. Active loan names are not listed in the email loan report, so the active loans tab currently has only the header until CRM loan lookup identifies the businesses.",
     "tabs": {
       "KPI Clean Active Loans": 826157161,
       "KPI Clean Fixed Deposit": 2126823957,
       "KPI Clean Moniebook": 414730897,
       "KPI Clean Active Terminals": 745226889,
       "KPI Clean Inactive Terminals": 1227113533
+    },
+    "row_counts": {
+      "KPI Clean Active Loans": 0,
+      "KPI Clean Fixed Deposit": 6,
+      "KPI Clean Moniebook": 4,
+      "KPI Clean Active Terminals": 40,
+      "KPI Clean Inactive Terminals": 50
     }
   },
   "inactiveFollowUp": {
