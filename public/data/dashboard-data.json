@@ -1054,7 +1054,9 @@
           "NPL Count": 0,
           "Available Customers": 565
         },
-        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-19"
+        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-19",
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1099288266",
+        "click_hint": "Click to open Google Sheets detail list"
       },
       {
         "product": "Fixed Deposit",
@@ -1067,7 +1069,9 @@
           "MTD AUM Active": 0,
           "Current Month Deposit": 0
         },
-        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-19"
+        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-19",
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1960060448",
+        "click_hint": "Click to open Google Sheets detail list"
       },
       {
         "product": "Moniebook",
@@ -1082,8 +1086,17 @@
           "Total Cancelled Businesses": 4,
           "Total Active Non-Transacting": 4
         },
-        "source": "Moniebook Business Relationship Manager Business Report for 2026-08-19"
+        "source": "Moniebook Business Relationship Manager Business Report for 2026-08-19",
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=184267973",
+        "click_hint": "Click to open Google Sheets detail list"
       }
     ]
+  },
+  "detailLinks": {
+    "loans": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1099288266",
+    "fixedDeposit": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1960060448",
+    "moniebook": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=184267973",
+    "activeTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=299322471",
+    "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=885863063"
   }
 }
