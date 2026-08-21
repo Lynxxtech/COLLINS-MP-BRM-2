@@ -1097,7 +1097,8 @@
     "fixedDeposit": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=2126823957",
     "moniebook": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=414730897",
     "activeTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=745226889",
-    "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1227113533"
+    "inactiveTerminals": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712",
+    "inactiveFollowUpSorted": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712"
   },
   "cleanContactTabs": {
     "note": "Clickable KPI links now open clean tabs with only Business Name, Phone Number, Email. Blank phone/email means not present in extracted reports.",
@@ -1108,5 +1109,21 @@
       "KPI Clean Active Terminals": 745226889,
       "KPI Clean Inactive Terminals": 1227113533
     }
+  },
+  "inactiveFollowUp": {
+    "sheet": "KPI Inactive Follow Up Sorted",
+    "url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=1510843712",
+    "sort": "Days Inactive descending",
+    "columns": [
+      "Priority",
+      "Business/Owner Name",
+      "Phone Number",
+      "Email",
+      "Days Inactive",
+      "Last Transaction Date",
+      "Call Link",
+      "SMS Link"
+    ],
+    "note": "Follow-up sheet is sorted by highest inactive duration first. Phone/email are matched only when present in extracted BRM/product report data."
   }
 }
