@@ -1799,5 +1799,22 @@
       "latest_value": 0,
       "note": "Related field in BRM report, but not the same as Active New BO."
     }
+  },
+  "dailyContextNotes": [],
+  "contextNotesMeta": {
+    "sheet_tab": "Daily Context Notes",
+    "columns": [
+      "Date",
+      "Category",
+      "Impact Direction",
+      "Impact Level",
+      "Short Note",
+      "Detailed Note",
+      "Added By",
+      "Added At",
+      "Source"
+    ],
+    "purpose": "Manual/researched context explaining why transaction performance moved on a date.",
+    "rule": "Use Collins-provided context or clearly labelled researched public context; do not invent local reasons."
   }
 }
