@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:01:09",
+  "generated_at": "2026-08-23T12:03:40",
   "source": "Moniepoint email reports via private Google Sheet source",
   "privacy": "Private deploy-ready package; no public Google Sheet sharing required.",
   "weekly": [
@@ -1800,21 +1800,34 @@
       "note": "Related field in BRM report, but not the same as Active New BO."
     }
   },
-  "dailyContextNotes": [],
+  "dailyContextNotes": [
+    {
+      "Date": "2026-08-22",
+      "Category": "Weather / Rain",
+      "Impact Direction": "Negative",
+      "Impact Level": "Medium",
+      "Short Note": "Heavy rainfall affected market movement",
+      "Detailed Note": "Heavy rainfall in Ughelli from afternoon to evening likely reduced customer movement and business activity, which may have contributed to weaker payment transaction performance for the day.",
+      "Added By": "Collins/Benny",
+      "Added At": "",
+      "Source": "Field observation"
+    },
+    {
+      "Date": "2026-12-24",
+      "Category": "Festive Day",
+      "Impact Direction": "Positive",
+      "Impact Level": "High",
+      "Short Note": "Christmas shopping supported stronger transactions",
+      "Detailed Note": "Increased holiday shopping activity may have supported stronger POS usage and higher payment transaction value/volume.",
+      "Added By": "Collins/Benny",
+      "Added At": "",
+      "Source": "Seasonal context"
+    }
+  ],
   "contextNotesMeta": {
     "sheet_tab": "Daily Context Notes",
-    "columns": [
-      "Date",
-      "Category",
-      "Impact Direction",
-      "Impact Level",
-      "Short Note",
-      "Detailed Note",
-      "Added By",
-      "Added At",
-      "Source"
-    ],
-    "purpose": "Manual/researched context explaining why transaction performance moved on a date.",
-    "rule": "Use Collins-provided context or clearly labelled researched public context; do not invent local reasons."
+    "local_source": "/root/moniepoint_context_notes/daily_context_notes.csv",
+    "note_count": 2,
+    "last_synced_at": "2026-08-23T12:03:40"
   }
 }
