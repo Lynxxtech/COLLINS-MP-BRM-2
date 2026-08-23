@@ -1763,5 +1763,133 @@
     "local_source": "/root/moniepoint_context_notes/daily_context_notes.csv",
     "note_count": 2,
     "last_synced_at": "2026-08-23T12:06:52"
+  },
+  "dataQualityAudit": {
+    "status": "PASSED",
+    "checked_at": "2026-08-23T11:20:32Z",
+    "latest_report_date": "2026-08-22",
+    "rows_checked": 35,
+    "dashboard_daily_rows": 35,
+    "source_reconciliation": {
+      "status": "PASSED",
+      "rule": "Daily Total Transaction Value = Payment Value + Transfer Value; Daily Total Volume = Payment Volume + Transfer Volume",
+      "issues": 0
+    },
+    "terminal_formula_validation": {
+      "status": "PASSED",
+      "rule": "Active + Inactive + Non-Transacting + Unassigned = Total",
+      "daily_issues": 0,
+      "weekly_issues": 0
+    },
+    "raw_report_match_validation": {
+      "status": "PASSED",
+      "raw_report_dates": [
+        "2026-07-19",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-26",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-01",
+        "2026-08-02",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-08",
+        "2026-08-09",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-15",
+        "2026-08-16",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-22"
+      ],
+      "issues": 0
+    },
+    "movement_sanity_flags": [
+      {
+        "week": "Week 1",
+        "compared_to": "Week 0",
+        "severity": "info",
+        "transaction_value": 659722125.37,
+        "previous_transaction_value": 698102905.86,
+        "value_change": -38380780.49,
+        "value_change_pct": -5.5,
+        "transaction_volume": 15818,
+        "previous_transaction_volume": 16548,
+        "volume_change": -730,
+        "volume_change_pct": -4.41,
+        "reason": "value down ₦38,380,780 vs Week 0 · volume down 730 vs Week 0",
+        "requires_context_note": true
+      },
+      {
+        "week": "Week 2",
+        "compared_to": "Week 1",
+        "severity": "warning",
+        "transaction_value": 760371103.53,
+        "previous_transaction_value": 659722125.37,
+        "value_change": 100648978.16,
+        "value_change_pct": 15.26,
+        "transaction_volume": 16773,
+        "previous_transaction_volume": 15818,
+        "volume_change": 955,
+        "volume_change_pct": 6.04,
+        "reason": "transaction value changed 15.3% vs Week 1",
+        "requires_context_note": true
+      },
+      {
+        "week": "Week 3",
+        "compared_to": "Week 2",
+        "severity": "info",
+        "transaction_value": 810176100.09,
+        "previous_transaction_value": 760371103.53,
+        "value_change": 49804996.56,
+        "value_change_pct": 6.55,
+        "transaction_volume": 16111,
+        "previous_transaction_volume": 16773,
+        "volume_change": -662,
+        "volume_change_pct": -3.95,
+        "reason": "volume down 662 vs Week 2",
+        "requires_context_note": true
+      },
+      {
+        "week": "Week 4",
+        "compared_to": "Week 3",
+        "severity": "warning",
+        "transaction_value": 652453131.34,
+        "previous_transaction_value": 810176100.09,
+        "value_change": -157722968.75,
+        "value_change_pct": -19.47,
+        "transaction_volume": 16003,
+        "previous_transaction_volume": 16111,
+        "volume_change": -108,
+        "volume_change_pct": -0.67,
+        "reason": "transaction value changed -19.5% vs Week 3 · value down ₦157,722,969 vs Week 3 · volume down 108 vs Week 3",
+        "requires_context_note": true
+      }
+    ],
+    "movement_flag_count": 4,
+    "publish_gate": "ALLOW",
+    "protocol_layers": [
+      "Layer 1: source reconciliation gate",
+      "Layer 2: week-to-week movement sanity flags",
+      "Layer 3: visible dashboard audit status"
+    ]
   }
 }
