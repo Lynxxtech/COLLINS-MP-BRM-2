@@ -1477,11 +1477,11 @@
     }
   ],
   "productKpis": {
-    "latest_report_date": "2026-08-21",
+    "latest_report_date": "2026-08-23",
     "reports": [
       {
         "product": "Loans",
-        "report_date": "2026-08-21",
+        "report_date": "2026-08-23",
         "active_count": 4,
         "primary_label": "Active Loans",
         "secondary_metrics": {
@@ -1491,13 +1491,13 @@
           "NPL Count": 0,
           "Available Customers": 565
         },
-        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-21",
-        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=826157161",
-        "click_hint": "Click to open clean Google Sheets contact list"
+        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-23",
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit",
+        "click_hint": "Click to open Google Sheet source"
       },
       {
         "product": "Fixed Deposit",
-        "report_date": "2026-08-21",
+        "report_date": "2026-08-23",
         "active_count": 0,
         "primary_label": "Current Month Active Fixed Plans",
         "secondary_metrics": {
@@ -1506,9 +1506,9 @@
           "MTD AUM Active": 0,
           "Current Month Deposit": 0
         },
-        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-21",
-        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=2126823957",
-        "click_hint": "Click to open clean Google Sheets contact list"
+        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-23",
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit",
+        "click_hint": "Click to open Google Sheet source"
       },
       {
         "product": "Moniebook",
