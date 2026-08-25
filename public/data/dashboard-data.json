@@ -1560,7 +1560,7 @@
       },
       {
         "product": "Moniebook",
-        "report_date": "2026-08-21",
+        "report_date": "2026-08-24",
         "active_count": 4,
         "primary_label": "Total Active Subscriptions",
         "secondary_metrics": {
@@ -1571,7 +1571,7 @@
           "Total Cancelled Businesses": 4,
           "Total Active Non-Transacting": 4
         },
-        "source": "Moniebook Business Relationship Manager Business Report for 2026-08-21",
+        "source": "Moniebook Business Relationship Manager Business Report for 2026-08-24",
         "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit#gid=414730897",
         "click_hint": "Click to open clean Google Sheets contact list"
       }
