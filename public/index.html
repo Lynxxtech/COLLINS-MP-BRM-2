@@ -53,6 +53,11 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;background-ima
 /* v68 two-row KPI card layout - presentation only */
 .layout.cards{display:flex!important;flex-wrap:wrap!important;gap:16px!important;width:100%!important;align-items:stretch!important}.layout.cards .card{flex:1 1 calc((100% - 80px)/6)!important;min-width:0!important;width:auto!important;max-width:none!important}.layout.cards .card .v{font-size:clamp(22px,1.55vw,31px)!important}.layout.cards .card .s{min-height:46px!important}@media(min-width:1180px){.layout.cards .card{min-height:156px!important}.layout.cards .card:nth-child(n+7){flex-basis:calc((100% - 64px)/5)!important}.layout.cards .card:nth-child(7),.layout.cards .card:nth-child(8),.layout.cards .card:nth-child(9),.layout.cards .card:nth-child(10),.layout.cards .card:nth-child(11){max-width:none!important}}@media(min-width:760px) and (max-width:1179px){.layout.cards .card{flex-basis:calc((100% - 32px)/3)!important}}@media(max-width:759px){.layout.cards{display:grid!important;grid-template-columns:1fr!important}.layout.cards .card{flex:none!important;width:100%!important}}
 
+
+
+/* v69 centered KPI card text - presentation only */
+.layout.cards .card{text-align:center!important;align-items:center!important;justify-content:center!important}.layout.cards .card .k,.layout.cards .card .v,.layout.cards .card .s,.layout.cards .card .clickHint{text-align:center!important;width:100%!important}.layout.cards .card .s{display:block!important}.layout.cards .card .status{justify-content:center!important}.layout.cards .card:before{right:50%!important;top:-62px!important;transform:translateX(50%)!important;opacity:.72!important}.layout.cards .card:after{left:18%!important;right:18%!important;border-radius:999px!important}.layout.cards .clickHint{margin-left:auto!important;margin-right:auto!important}.productCards .card{text-align:center!important;align-items:center!important;justify-content:center!important}.productCards .card .k,.productCards .card .v,.productCards .card .s,.productCards .card .clickHint{text-align:center!important;width:100%!important}
+
 </style>
 </head>
 <body><div class="shell">
