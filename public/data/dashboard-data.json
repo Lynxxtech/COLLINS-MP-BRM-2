@@ -1707,8 +1707,8 @@
       "KPI Clean Active Loans": 0,
       "KPI Clean Fixed Deposit": 6,
       "KPI Clean Moniebook": 4,
-      "KPI Clean Active Terminals": 676,
-      "KPI Clean Inactive Terminals": 170
+      "KPI Clean Active Terminals": 801,
+      "KPI Clean Inactive Terminals": 205
     }
   },
   "inactiveFollowUp": {
@@ -1855,7 +1855,7 @@
         "inactive_matched": 34
       }
     ],
-    "going_forward": "Append/refresh each new week using the Weekly Terminal Transactions section only, not Daily Terminal Transactions."
+    "going_forward": "Dashboard card links use detailLinkRanges so the selected week opens at the start row for that week in Google Sheets."
   },
   "dataAudit": {
     "headline": "Dashboard is report-data driven. KPI cards show terminal-count buckets from Weekly Terminal Transactions + Non-Transacting section; click-through sheets show business-owner/business-name rows.",
@@ -2175,6 +2175,12 @@
         "end_row": 677,
         "row_count": 133,
         "range": "A545:H677"
+      },
+      "Week 5": {
+        "start_row": 678,
+        "end_row": 802,
+        "row_count": 125,
+        "range": "A678:H802"
       }
     },
     "inactiveTerminals": {
@@ -2207,6 +2213,12 @@
         "end_row": 171,
         "row_count": 34,
         "range": "A138:H171"
+      },
+      "Week 5": {
+        "start_row": 172,
+        "end_row": 206,
+        "row_count": 35,
+        "range": "A172:H206"
       }
     }
   },
