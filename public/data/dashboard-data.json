@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:02:52",
+  "generated_at": "2026-08-29T12:20:21",
   "source": "Moniepoint email reports via private Google Sheet source",
   "privacy": "Private deploy-ready package; no public Google Sheet sharing required.",
   "weekly": [
@@ -1672,6 +1672,39 @@
     "latest_report_date": "2026-08-28",
     "reports": [
       {
+        "product": "Loans",
+        "report_date": "2026-08-27",
+        "active_count": 4,
+        "primary_label": "Active Loans",
+        "secondary_metrics": {
+          "Current GLPV": 2309643.12,
+          "Loan Penetration Rate %": 0.66,
+          "Loans in Recovery": 0,
+          "NPL Count": 0,
+          "Available Customers": 603
+        },
+        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-08-27",
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit",
+        "click_hint": "Click to open Google Sheet source",
+        "stale_note": "Last valid product report preserved because latest daily run did not include this product report."
+      },
+      {
+        "product": "Fixed Deposit",
+        "report_date": "2026-08-27",
+        "active_count": 0,
+        "primary_label": "Current Month Active Fixed Plans",
+        "secondary_metrics": {
+          "All-Time Active Plans": 0,
+          "All-Time Active AUM": 0,
+          "MTD AUM Active": 0,
+          "Current Month Deposit": 0
+        },
+        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-08-27",
+        "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit",
+        "click_hint": "Click to open Google Sheet source",
+        "stale_note": "Last valid product report preserved because latest daily run did not include this product report."
+      },
+      {
         "product": "Moniebook",
         "report_date": "2026-08-24",
         "active_count": 4,
@@ -2228,5 +2261,5 @@
       }
     }
   },
-  "appVersion": "v65-daily-2026-08-28-audit-2026-08-29"
+  "appVersion": "v65-products-restored-2026-08-29"
 }
