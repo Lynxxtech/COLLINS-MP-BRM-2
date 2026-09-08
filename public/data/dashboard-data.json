@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:28:59",
+  "generated_at": "2026-09-08T13:32:57",
   "source": "Moniepoint email reports via private Google Sheet source",
   "privacy": "Private deploy-ready package; no public Google Sheet sharing required.",
   "weekly": [
@@ -2166,7 +2166,7 @@
       "KPI Clean Active Loans": 0,
       "KPI Clean Fixed Deposit": 6,
       "KPI Clean Moniebook": 4,
-      "KPI Clean Active Terminals": 1051,
+      "KPI Clean Active Terminals": 1054,
       "KPI Clean Inactive Terminals": 257
     }
   },
@@ -2690,9 +2690,9 @@
       },
       "Week 7": {
         "start_row": 927,
-        "end_row": 1052,
-        "row_count": 126,
-        "range": "A927:H1052"
+        "end_row": 1055,
+        "row_count": 129,
+        "range": "A927:H1055"
       }
     },
     "inactiveTerminals": {
@@ -2746,5 +2746,5 @@
       }
     }
   },
-  "appVersion": "v84-daily-2026-09-07-mobile-v83-2026-09-08"
+  "appVersion": "v85-daily-2026-09-07-clean-tabs-2026-09-08"
 }
