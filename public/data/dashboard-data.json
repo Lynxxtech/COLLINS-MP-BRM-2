@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T12:06:34",
+  "generated_at": "2026-09-08T13:28:59",
   "source": "Moniepoint email reports via private Google Sheet source",
   "privacy": "Private deploy-ready package; no public Google Sheet sharing required.",
   "weekly": [
@@ -224,32 +224,32 @@
       "week_index": 7,
       "week_label": "Week 7",
       "period_start": "2026-09-06",
-      "period_end": "2026-09-06",
-      "days_available": 1,
-      "avg_TA_%": 63.7,
+      "period_end": "2026-09-07",
+      "days_available": 2,
+      "avg_TA_%": 64.8,
       "TA_target_%": 72,
       "avg_Top_BO_retention_%": 91.1,
       "Top_BO_retention_target_%": 92,
-      "avg_active_terminals": 140,
-      "avg_inactive_count": 31,
-      "weekly_transaction_value": 28975269,
-      "weekly_transaction_volume": 1481,
-      "avg_total_terminal_count": 238,
+      "avg_active_terminals": 142,
+      "avg_inactive_count": 32,
+      "weekly_transaction_value": 249001667,
+      "weekly_transaction_volume": 4414,
+      "avg_total_terminal_count": 239,
       "avg_assigned_terminal_count": 228,
-      "avg_inactive_terminals_below_100k_7_days": 31,
-      "avg_non_transacting_terminals": 57,
-      "avg_active_terminals_payment_above_100k_7_days": 140,
-      "avg_inactive_terminals_payment_below_100k_7_days": 31,
+      "avg_inactive_terminals_below_100k_7_days": 32,
+      "avg_non_transacting_terminals": 55,
+      "avg_active_terminals_payment_above_100k_7_days": 142,
+      "avg_inactive_terminals_payment_below_100k_7_days": 32,
       "avg_unassigned_terminals": 10,
-      "TA_gap_pts": -8.3,
+      "TA_gap_pts": -7.2,
       "retention_gap_pts": -0.9,
-      "terminal_formula_check_total": 238,
-      "avg_TA_%_wow_change": -2.26,
+      "terminal_formula_check_total": 239,
+      "avg_TA_%_wow_change": -1.16,
       "avg_Top_BO_retention_%_wow_change": -0.07,
-      "weekly_transaction_value_wow_change": -792384723.31,
-      "weekly_transaction_volume_wow_change": -15900.0,
-      "avg_active_terminals_wow_change": -1,
-      "avg_inactive_terminals_wow_change": -1
+      "weekly_transaction_value_wow_change": -572358325.31,
+      "weekly_transaction_volume_wow_change": -12967.0,
+      "avg_active_terminals_wow_change": 1,
+      "avg_inactive_terminals_wow_change": 0
     }
   ],
   "daily": [
@@ -2052,30 +2052,66 @@
       "inactive_terminals_display": 31,
       "inactive_terminals_payment_below_100k_7_days": 31,
       "unassigned_terminals": 10
+    },
+    {
+      "report_date_iso": "2026-09-07",
+      "report_date_label": "Mon, 07-Sep-2026",
+      "week_index": 7,
+      "week_label": "Week 7",
+      "TA_%": 65.9,
+      "TA_target_%": "72",
+      "Top_BO_retention_%": 91.1,
+      "Top_BO_retention_target_%": "92",
+      "top_bo_count": 90,
+      "retained_top_bos": 82,
+      "declined_top_bos": 8,
+      "newly_declined_top_bos": 0,
+      "newly_recovered_top_bos": 0,
+      "total_terminal_count": 238,
+      "terminals_assigned_to_bos": 229,
+      "active_terminals": 144,
+      "terminals_assigned_for_7_plus_days": "",
+      "active_terminals_assigned_for_7_plus_days": "",
+      "daily_payment_value": 87278439,
+      "daily_payment_volume": 2180,
+      "daily_transfer_value": 132747959,
+      "daily_transfer_volume": 753,
+      "daily_total_transaction_value": 220026398.0,
+      "daily_total_transaction_volume": 2933,
+      "non_transacting_count": 53,
+      "daily_transaction_rows": "",
+      "weekly_transaction_rows": 229,
+      "active_terminals_display": 144,
+      "active_terminals_payment_above_100k_7_days": 144,
+      "below_or_equal_100k_assigned_terminals": 85,
+      "non_transacting_terminals": 53,
+      "inactive_terminals_display": 32,
+      "inactive_terminals_payment_below_100k_7_days": 32,
+      "unassigned_terminals": 9
     }
   ],
   "productKpis": {
-    "latest_report_date": "2026-09-06",
+    "latest_report_date": "2026-09-07",
     "reports": [
       {
         "product": "Loans",
-        "report_date": "2026-09-06",
+        "report_date": "2026-09-07",
         "active_count": 4,
         "primary_label": "Active Loans",
         "secondary_metrics": {
-          "Current GLPV": 2126201.14,
-          "Loan Penetration Rate %": 0.68,
+          "Current GLPV": 2050409.48,
+          "Loan Penetration Rate %": 0.69,
           "Loans in Recovery": 0,
           "NPL Count": 0,
-          "Available Customers": 584
+          "Available Customers": 574
         },
-        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-09-06",
+        "source": "Moniepoint Business Relationship Manager Loans Report for 2026-09-07",
         "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit",
         "click_hint": "Click to open Google Sheet source"
       },
       {
         "product": "Fixed Deposit",
-        "report_date": "2026-09-06",
+        "report_date": "2026-09-07",
         "active_count": 0,
         "primary_label": "Current Month Active Fixed Plans",
         "secondary_metrics": {
@@ -2084,7 +2120,7 @@
           "MTD AUM Active": 0,
           "Current Month Deposit": 0
         },
-        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-09-06",
+        "source": "Moniepoint Business Relationship Manager Offline Savings Performance Report for 2026-09-07",
         "detail_url": "https://docs.google.com/spreadsheets/d/1bShVawp4vj6575R7OrfhPM0TGeAqECPkJs95V5L_Rxc/edit",
         "click_hint": "Click to open Google Sheet source"
       },
@@ -2421,10 +2457,10 @@
   },
   "dataQualityAudit": {
     "status": "PASSED",
-    "checked_at": "2026-09-07T12:06:34",
-    "latest_report_date": "2026-09-06",
-    "rows_checked": 50,
-    "dashboard_daily_rows": 50,
+    "checked_at": "2026-09-08T13:28:59",
+    "latest_report_date": "2026-09-07",
+    "rows_checked": 51,
+    "dashboard_daily_rows": 51,
     "source_reconciliation": {
       "status": "PASSED",
       "rule": "Daily Total Transaction Value = Payment Value + Transfer Value; Daily Total Volume = Payment Volume + Transfer Volume",
@@ -2488,7 +2524,8 @@
         "2026-09-03",
         "2026-09-04",
         "2026-09-05",
-        "2026-09-06"
+        "2026-09-06",
+        "2026-09-07"
       ],
       "issues": 0
     },
@@ -2587,15 +2624,15 @@
         "week": "Week 7",
         "compared_to": "Week 6",
         "severity": "warning",
-        "transaction_value": 28975269.0,
+        "transaction_value": 249001667.0,
         "previous_transaction_value": 821359992.31,
-        "value_change": -792384723.31,
-        "value_change_pct": -96.47,
-        "transaction_volume": 1481,
+        "value_change": -572358325.31,
+        "value_change_pct": -69.68,
+        "transaction_volume": 4414,
         "previous_transaction_volume": 17381,
-        "volume_change": -15900,
-        "volume_change_pct": -91.48,
-        "reason": "transaction value changed -96.47% vs Week 6 · value down ₦792,384,723 vs Week 6 · volume down 15,900 vs Week 6",
+        "volume_change": -12967,
+        "volume_change_pct": -74.6,
+        "reason": "transaction value changed -69.68% vs Week 6 · value down ₦572,358,325 vs Week 6 · volume down 12,967 vs Week 6",
         "requires_context_note": true
       }
     ],
@@ -2709,5 +2746,5 @@
       }
     }
   },
-  "appVersion": "v75-daily-2026-09-06-audit-2026-09-07"
+  "appVersion": "v84-daily-2026-09-07-mobile-v83-2026-09-08"
 }
